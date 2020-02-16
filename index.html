@@ -5,7 +5,15 @@
         </title>
         <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+        <script>$(document).ready(function(){
+    $('.sidenav').sidenav();
+  });</script>
     </head>
+    
     <body>
        <!--navbar start-->
         <nav>
@@ -22,14 +30,20 @@
                 </ul>
             </div>
         </nav>
+          <ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">Javascript</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+  </ul>  
         <!--navbar end-->
         <!--home start-->
         <div class="home section blue"><br><br>
-            <h1 class="med" s12 l6>About US</h1>
+            <h1 class="med" col s12 m6 l6>About US</h1>
         <p >Anti-abortion movements, also referred to as pro-life movements, are involved in the abortion debate advocating against the practice of abortion and its legality. Many anti-abortion movements began as countermovements in response to the legalization of elective abortions.
 
 Abortion is defined as the termination of a human pregnancy accompanied by the death of the embryo or fetus.</p>
-            <a href="G:\shrikar  photo\Camera">profile</a>
+            <h1 col s12 l6 m6  img="G:\shrikar  photo\Camera">Profile</h1>
         </div>
         <!--home end-->
         <!-- Compiled and minified JavaScript -->
