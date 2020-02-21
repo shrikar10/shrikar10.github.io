@@ -1,0 +1,11 @@
+body{
+    background-color: chocolate;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.amazon{
+    color: midnightblue;
+    text-underline-position: below;
+}
